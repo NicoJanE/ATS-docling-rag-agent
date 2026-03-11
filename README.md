@@ -2,6 +2,8 @@
 
 An intelligent text-based CLI agent that provides conversational access to a knowledge base stored in PostgreSQL with PGVector. Uses RAG (Retrieval Augmented Generation) to search through embedded documents and provide contextual, accurate responses with source citations. Supports multiple document formats including audio files with Whisper transcription.
 
+For **quick reference** see [here](https://github.com/NicoJanE/ATS-docling-rag-agent/blob/master/QUICK_REFERENCE.md)
+
 ## 🎓 New to Docling?
 
 **Start with the tutorials!** Check out the [`docling_basics/`](./docling_basics/) folder for progressive examples that teach Docling fundamentals:
