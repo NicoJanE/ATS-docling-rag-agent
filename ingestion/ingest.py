@@ -708,9 +708,14 @@ async def main():
         
         # Ingest source code if specified
         code_results = []
-        if args.source_code and os.path.exists(args.source_code):
-            logger.info(f"Ingesting source code from {args.source_code}")
-            code_results = await pipeline.ingest_source_code(args.source_code, progress_callback)
+        if args.source_code:
+            if os.path.exists(args.source_code):
+                logger.info(f"Ingesting source code from {args.source_code}")
+                code_results = await pipeline.ingest_source_code(args.source_code, progress_callback)
+            else:
+                logger.error(f"❌ Source code folder not found: {args.source_code}")
+                logger.info(f"   Current working directory: {os.getcwd()}")
+                logger.info(f"   Please provide a valid path (relative or absolute)")
         
         # Combine results
         results = doc_results + code_results

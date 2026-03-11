@@ -148,6 +148,9 @@ Add your documents to the `RAG_documents/` folder. **Multiple formats supported 
 # Ingest all supported documents in the RAG_documents/ folder
 # NOTE: By default, this CLEARS existing data before ingestion
 uv run python -m ingestion.ingest --documents RAG_documents/
+# Also read the source code? Use:
+# uv run python -m ingestion.ingest --documents RAG_documents/ --source-code RAG_source_code
+
 
 # Adjust chunk size (default: 1000)
 uv run python -m ingestion.ingest --documents RAG_documents/ --chunk-size 800

@@ -119,6 +119,9 @@ docker-compose up postgres -d
 
 # Ingest documents, add them,  as chunks, to the DB.
 uv run python -m ingestion.ingest --documents RAG_documents/
+#  also read the source code? Use:
+# uv run python -m ingestion.ingest --documents RAG_documents/ --source-code RAG_source_code
+
 
 # Start CLI Agent
 uv run python cli.py
