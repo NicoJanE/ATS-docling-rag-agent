@@ -84,7 +84,7 @@ DATABASE_URL=postgresql://raguser:ragpass123@localhost:5432/postgres
 
 ### 6. Configure LLM (Language Model)
 
-Add these variables to your `.env` file. You have two options: (see the `.env.example` file for configuring a local LLM i.e. Koboldcpp)
+Add these variables to your `.env` file. You have two options: (see also the `.env.example` file)
 
 #### Option A: Remote LLM (OpenAI - Easiest)
 ```env
