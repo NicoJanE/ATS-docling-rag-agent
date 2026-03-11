@@ -4,9 +4,7 @@ An intelligent text-based CLI agent that provides conversational access to a kno
 
 For **quick reference** see [here](https://github.com/NicoJanE/ATS-docling-rag-agent/blob/master/QUICK_REFERENCE.md)
 
-## 🎓 New to Docling?
-
-**Start with the tutorials!** Check out the [`docling_basics/`](./docling_basics/) folder for progressive examples that teach Docling fundamentals:
+Docling fundamentals:
 
 1. **Simple PDF Conversion** - Basic document processing
 2. **Multiple Format Support** - PDF, Word, PowerPoint handling
@@ -15,7 +13,7 @@ For **quick reference** see [here](https://github.com/NicoJanE/ATS-docling-rag-a
 
 
 >**❗Orginal Author**
-This document is an extension from the great documentation provided by: Cole Medin. His YouTube explanation can be found [**here**](https://www.youtube.com/watch?v=fg0_0M8kZ8g). And the original repository can be found [**here**](https://github.com/coleam00/ottomator-agents/tree/main/docling-rag-agent).  which also contains the  **docling_basics** example 
+This document is an extension from the great documentation provided by: Cole Medin. His YouTube explanation can be found [**here**](https://www.youtube.com/watch?v=fg0_0M8kZ8g). And the original repository can be found [**here**](https://github.com/coleam00/ottomator-agents/tree/main/docling-rag-agent).  which also contains the  **docling_basics** examples.
 
 I just Added support for the items mentioned in the section below 
 
