@@ -1,0 +1,59 @@
+# Environment and Virtual Environments
+.env
+.env.local
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+debug_output.txt
+ingestion_test.log
+
+# Data and models
+*.gguf
+*.bin
+models/
+*.pkl
+
+# Database
+postgres_data/
+*.db
+*.sqlite
+
+# Claude
+.claude
+CLAUDE.md
+
+# Project-specific
+ideal_documents
+PRPs
+.history/
+temp_*.txt
+test_*.txt
+test_*.py
+!test_all_fixes.py
